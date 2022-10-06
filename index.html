@@ -5,13 +5,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- <link rel="stylesheet" href="node_modules/bootstrap/comp/bootstrap.css"> -->
-    <link rel="stylesheet" href="scss/bs-custom.css">
+    <link rel="stylesheet" href="css/bs-custom.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand bg-light justify-content-center">
+    <header class="vh-100 overflow-hidden">
+        <nav class="navbar navbar-expand fixed-top bg-light justify-content-center">
             <div class="container-fluid flex-wrap row gy-3 px-0 py-3">
                 <div class="d-flex col-12 col-md-3 justify-content-center justify-content-md-start">
                     <a class="navbar-brand m-0 p-0" href="index.html">Baixos da Quebrada</a>
@@ -29,9 +30,16 @@
                 </div>
             </div>
         </nav>
-    </header>
-    <main class="" style="min-height: 2000px;">
 
+        <section class="video-banner">
+            <div class="video-bg">
+                <video autoplay muted loop id="gameplay-bg" poster="">
+                    <source src="./videos/vf5.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+    </header>
+    <main class="bg-dark vh-100">
     </main>
 </body>
 
