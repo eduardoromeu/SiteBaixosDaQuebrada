@@ -6,18 +6,20 @@
     max-width: 100vw;
 }
 
-.banner-call {
+.banner-foreground {
     position: absolute;
-    /* display: flex;
-    justify-content: flex-start;
-    align-items: center; */
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    padding-top: 188px;
     z-index: 1;
 }
 
-.banner-call img {
-    width: 50%;
+.banner-call {
+    width: 100%;
+}
+
+.play-badge {
+    width: 100%;
     max-width: 256px;
 }
 
