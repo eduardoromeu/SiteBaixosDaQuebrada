@@ -1,3 +1,11 @@
+.studio-logo {
+    width: 126px;
+}
+
+.studio-logo img{
+    max-width: 100%;
+}
+
 .video-banner {
     display: flex;
     justify-content: center;
@@ -38,4 +46,33 @@
     margin: 0 auto;
     min-width: 100%;
     min-height: 100%;
+}
+
+.social-buttons {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.social-buttons .btn {
+    padding: 12px;
+}
+
+.social-img {
+    object-fit: contain;
+    width: 45px;
+    height: 45px;
+}
+
+.instagram-btn {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.instagram-btn .social-img {
+    filter: invert();
+}
+
+.discord-img:hover {
+    content: url("../img/Clyde-Happy.png");
 }

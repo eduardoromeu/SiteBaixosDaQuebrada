@@ -15,7 +15,12 @@
         <nav class="navbar navbar-expand fixed-top bg-light justify-content-center">
             <div class="container-fluid flex-wrap row gy-3 px-0 py-3">
                 <div class="d-flex col-12 col-md-3 justify-content-center justify-content-md-start">
-                    <a class="navbar-brand m-0 p-0" href="index.html">Baixos da Quebrada</a>
+                    <a class="navbar-brand m-0 p-0" href="index.html"></a>
+                        <div class=".studio-logo">
+                            <img src="img/codeit-512.png" alt="CodeIt Logo" class="studio-logo d-inline-block align-text-top">
+                        </div>
+                        <!-- Baixos da Quebrada -->
+                    </a>
                 </div>
 
                 <div class="navbar-nav col-12 col-md-6 align-items-center justify-content-around justify-content-md-center px-0">
@@ -24,8 +29,7 @@
                     <a class="nav-link" href="#">Sobre</a>
                 </div>
 
-                <div class="navbar-nav col-12 col-md-3 align-items-center justify-content-around row-cols-3">
-                    <!-- Consertar tamanho no md -->
+                <div class="navbar-nav col-12 col-md-3 align-items-center justify-content-around row-cols-3 gap-3 px-3">
                     <a class="btn btn-light btn col-5" href="#">Jogar Demo</a>
                     <a class="btn btn-success btn col-7" href="#">Baixar</a>
                 </div>
@@ -42,13 +46,21 @@
                 </div>
             </div>
             <div class="video-bg">
-                <video autoplay muted loop id="gameplay-bg" poster="">
+                <video muted loop id="gameplay-bg" poster="">
                     <source src="./videos/vf5.mp4" type="video/mp4">
                 </video>
             </div>
         </section>
     </header>
     <main class="bg-light vh-100">
+        <section class="social-buttons m-4 d-flex flex-column justify-content-around">
+            <a href="https://www.instagram.com/codeitstudio/" class="btn my-2 rounded-circle instagram-btn">
+                <img src="./img/instagram-logo-black.png" class="social-img">
+            </a>
+            <a href="https://discord.gg/bDW2BnbZp7" class="btn btn-blurple my-2 rounded-circle">
+                <img src="./img/icon_clyde_white_RGB.png" class="social-img discord-img">
+            </a>
+        </section>
     </main>
 </body>
 
