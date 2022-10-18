@@ -6,6 +6,18 @@
     max-width: 100%;
 }
 
+.sound-img {
+    width: 2em;
+}
+
+.mute-on {
+    content: url(../img/icons/volume-mute-fill.svg);
+}
+
+.mute-off {
+    content: url(../img/icons/volume-down-fill.svg);
+}
+
 .video-banner {
     display: flex;
     justify-content: center;
@@ -23,12 +35,6 @@
     z-index: 1;
 }
 
-@media only screen and (min-width: 768px) {
-    .banner-foreground {
-        padding-top: 112px;
-    }
-}
-
 .banner-call {
     width: 100%;
 }
@@ -42,6 +48,7 @@
     overflow: hidden;
     min-width: 100vw;
     height: 100%;
+    margin-top: -444px;
 }
 
 .video-bg video {
@@ -79,4 +86,15 @@
 
 .social-buttons .btn:hover .discord-img {
     content: url("../img/Clyde-Happy.png");
+}
+
+
+@media only screen and (min-width: 768px) {
+    .banner-foreground {
+        padding-top: 112px;
+    }
+
+    .video-bg {
+        margin-top: -224px;
+    }
 }
