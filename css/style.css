@@ -18,6 +18,10 @@
     content: url(../img/icons/volume-down-fill.svg);
 }
 
+.newtab-icon {
+    filter: invert();
+}
+
 .video-banner {
     display: flex;
     justify-content: center;
