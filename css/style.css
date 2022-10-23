@@ -30,6 +30,23 @@
     max-width: 100vw;
 }
 
+.video-bg {
+    margin-top: -222px;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.video-bg video {
+    display: block;
+    position: relative;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    margin: 0 auto;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 .banner-foreground {
     position: absolute;
     top: 0;
@@ -43,26 +60,19 @@
     width: 100%;
 }
 
+@media only screen and (min-width: 768px) {
+    .banner-foreground {
+        padding-top: 112px;
+    }
+
+    .video-bg {
+        margin-top: -112px;
+    }
+}
+
 .play-badge {
     width: 100%;
     max-width: 256px;
-}
-
-.video-bg {
-    overflow: hidden;
-    min-width: 100vw;
-    height: 100%;
-    margin-top: -444px;
-}
-
-.video-bg video {
-    display: block;
-    position: relative;
-    transform: translate(-50%, 0%);
-    left: 50%;
-    margin: 0 auto;
-    min-width: 100%;
-    min-height: 100%;
 }
 
 .social-buttons {
@@ -92,13 +102,3 @@
     content: url("../img/Clyde-Happy.png");
 }
 
-
-@media only screen and (min-width: 768px) {
-    .banner-foreground {
-        padding-top: 112px;
-    }
-
-    .video-bg {
-        margin-top: -224px;
-    }
-}

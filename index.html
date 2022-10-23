@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header class="vh-100 overflow-hidden">
+    <header class="overflow-hidden">
         <nav class="navbar navbar-expand sticky-top bg-light justify-content-center">
             <div class="container-fluid flex-wrap row gy-3 px-0 py-3">
                 <div class="d-flex col-12 col-md-3 justify-content-center justify-content-md-start">
@@ -25,6 +25,7 @@
 
                 <div class="navbar-nav col-12 col-md-6 align-items-center justify-content-around justify-content-md-center px-0">
                     <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="#">Conteúdo</a>
                     <a class="nav-link" href="#">Gameplay</a>
                     <a class="nav-link" href="#">Sobre</a>
                 </div>
@@ -35,7 +36,9 @@
                 </div>
             </div>
         </nav>
+    </header>
 
+    <main>
         <section class="video-banner">
             <div class="banner-foreground d-flex flex-column align-items-center justify-content-between">
                 <div class="video-controls w-100 d-flex justify-content-end">
@@ -57,15 +60,14 @@
                 </div>
             </div>
             <div class="video-bg">
-                <video autoplay muted loop id="gameplay-bg" poster="">
+                <video  muted loop id="gameplay-bg" poster="">
                     <source src="./videos/preview1.mp4" type="video/mp4">
                 </video>
             </div>
         </section>
-    </header>
+        <section class="vh-100">
 
-    <main class="bg-light vh-100">
-
+        </section>
     </main>
 
     <aside class="social-buttons m-4 d-flex flex-column justify-content-around">
