@@ -60,15 +60,6 @@
     width: 100%;
 }
 
-@media only screen and (min-width: 768px) {
-    .banner-foreground {
-        padding-top: 112px;
-    }
-
-    .video-bg {
-        margin-top: -112px;
-    }
-}
 
 .play-badge {
     width: 100%;
@@ -102,3 +93,17 @@
     content: url("../img/Clyde-Happy.png");
 }
 
+.game-contents {
+    min-height: 80vh;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .banner-foreground {
+        padding-top: 112px;
+    }
+
+    .video-bg {
+        margin-top: -112px;
+    }
+}
