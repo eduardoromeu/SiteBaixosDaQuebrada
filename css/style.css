@@ -18,7 +18,12 @@
     content: url(../img/icons/volume_up_black_24dp.svg);
 }
 
-.newtab-icon {
+.banner-bottom div {
+    width: 33.3%;
+}
+
+.banner-bottom-icon {
+    max-height: 20px;
     filter: invert();
 }
 
