@@ -11,11 +11,11 @@
 }
 
 .mute-on {
-    content: url(../img/icons/volume-mute-fill.svg);
+    content: url(../img/icons/volume_off_black_24dp.svg);
 }
 
 .mute-off {
-    content: url(../img/icons/volume-down-fill.svg);
+    content: url(../img/icons/volume_up_black_24dp.svg);
 }
 
 .newtab-icon {
@@ -94,12 +94,22 @@
 }
 
 .game-contents {
-    min-height: 80vh;
+    min-height: 95vh;
+    overflow-x: hidden;
+}
+
+.feature-card {
+    height: 75vh;
+}
+
+.feature-card img {
+    max-width: 100%;
 }
 
 .card-emphasys-img {
     width: 1.5em;
 }
+
 
 @media only screen and (min-width: 768px) {
     .banner-foreground {
