@@ -103,18 +103,40 @@
     overflow-x: hidden;
 }
 
-.feature-card {
-    height: 75vh;
+.card-emphasys {
+    position: absolute;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.33);
+    transition: .25s all;
+    z-index: 1;
 }
 
-.feature-card img {
-    max-width: 100%;
+.card-emphasys:hover {
+    background-color: rgba(0, 0, 0, 0.66);
 }
 
 .card-emphasys-img {
     width: 1.5em;
+    filter: invert();
 }
 
+.feature-card-img {
+    cursor: pointer;
+    overflow: hidden;
+    max-height: 538px;
+    max-width: 1083px;
+    height: 100%;
+    width: 100%;
+}
+
+.feature-card-img img {
+    width: 100%;
+    transition: .15s all;
+}
+
+.feature-card-img:hover img {
+    transform: scale(1.1);
+}
 
 @media only screen and (min-width: 768px) {
     .banner-foreground {
