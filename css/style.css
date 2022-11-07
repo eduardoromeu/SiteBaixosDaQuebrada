@@ -100,7 +100,7 @@
 
 .game-contents {
     /* min-height: 50vh; */
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .card-emphasys {
@@ -124,8 +124,8 @@
     overflow: hidden;
     max-height: 538px;
     max-width: 1083px;
-    height: 100%;
-    width: 100%;
+    /* height: 100%; */
+    /* width: 100%; */
 }
 
 .feature-card-img img {
