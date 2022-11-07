@@ -99,7 +99,7 @@
 }
 
 .game-contents {
-    min-height: 95vh;
+    /* min-height: 50vh; */
     overflow-x: hidden;
 }
 
@@ -120,8 +120,7 @@
     filter: invert();
 }
 
-.feature-card-img {
-    cursor: pointer;
+.feature-card-img, .feature-card {
     overflow: hidden;
     max-height: 538px;
     max-width: 1083px;
@@ -130,6 +129,7 @@
 }
 
 .feature-card-img img {
+    cursor: pointer;
     width: 100%;
     transition: .15s all;
 }
