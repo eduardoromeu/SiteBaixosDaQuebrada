@@ -75,17 +75,17 @@
     position: fixed;
     bottom: 0;
     right: 0;
-    z-index: 2;
+    z-index: 10;
 }
 
 .social-buttons .btn {
-    padding: 12px;
+    padding: 9px;
 }
 
 .social-img {
     object-fit: contain;
-    width: 45px;
-    height: 45px;
+    width: 32px;
+    height: 32px;
 }
 
 /* Consertar o background 1px menor que o botão, lol */
@@ -143,5 +143,14 @@
 
     .video-bg {
         margin-top: -112px;
+    }
+
+    .social-buttons .btn {
+        padding: 12px;
+    }
+
+    .social-img {
+        width: 45px;
+        height: 45px;
     }
 }
