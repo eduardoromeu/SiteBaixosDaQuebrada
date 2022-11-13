@@ -98,10 +98,10 @@
     content: url("../img/Clyde-Happy.png");
 }
 
-.game-contents {
-    /* min-height: 50vh; */
-    /* overflow-x: hidden; */
-}
+/* .game-contents {
+    min-height: 50vh;
+    overflow-x: hidden; 
+} */
 
 .card-emphasys {
     position: absolute;
@@ -124,8 +124,6 @@
     overflow: hidden;
     max-height: 538px;
     max-width: 1083px;
-    /* height: 100%; */
-    /* width: 100%; */
 }
 
 .feature-card-img img {
