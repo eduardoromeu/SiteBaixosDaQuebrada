@@ -106,9 +106,9 @@
 .card-emphasys {
     position: absolute;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.33);
+    background-color: rgba(0, 0, 0, 0.40);
     transition: .25s all;
-    z-index: 1;
+    z-index: 3;
 }
 
 .card-emphasys:hover {
