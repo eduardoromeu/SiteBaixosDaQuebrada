@@ -72,15 +72,13 @@
     max-width: 256px;
 }
 
+/* Social */
+
 .social-buttons {
     position: fixed;
     bottom: 0;
     right: 0;
     z-index: 50;
-}
-
-.social-buttons .btn {
-    padding: 9px;
 }
 
 .social-img {
@@ -89,15 +87,40 @@
     height: 32px;
 }
 
-/* Consertar o background 1px menor que o botão, lol */
-.instagram-btn {
+/* .instagram-btn {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     border: 1px solid #285AEB !important;
+} */
+
+.instagram-btn {
+    padding: 0 !important;
+}
+
+.instagram-btn img {
+    width: 71px;
+    height: 71px;
+}
+
+.discord-btn {
+    padding: 9px;
 }
 
 .social-buttons .btn:hover .discord-img {
     content: url("../img/Clyde_Happy.png");
 }
+
+@media only screen and (min-width: 768px) {
+    .discord-btn {
+        padding: 12px;
+    }
+
+    .social-img {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* Cards */
 
 .card-emphasys {
     position: absolute;
@@ -152,14 +175,5 @@
 
     .video-bg {
         margin-top: -113px;
-    }
-
-    .social-buttons .btn {
-        padding: 12px;
-    }
-
-    .social-img {
-        width: 45px;
-        height: 45px;
     }
 }

@@ -3,6 +3,6 @@
 ### Lista de afazeres do site
 - Menu de screenshots em um modal ao clicar numa imagem
 - Fazer os ícones de redes sociais pararem antes do footer
-- Atualizar o bootstrap
-- Tirar a div interna do footer por ser desnecessária
 - Trocar CSS customizado por imagens
+- Vetorizar Imagem do instagram
+- Atualizar o bootstrap (ou esperar a próxima versão)
