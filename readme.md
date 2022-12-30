@@ -2,7 +2,7 @@
 
 ### Lista de afazeres do site
 - Menu de screenshots em um modal ao clicar numa imagem
-- Fazer os ícones de redes sociais pararem antes do footer [(ref)](https://codepen.io/rikschennink/pen/yZYbwQ)
+- Fazer os ícones de redes sociais pararem antes do footer [(ref)](https://css-tricks.com/styling-based-on-scroll-position/)
 - Trocar CSS customizado por imagens
 - Vetorizar Imagem do instagram
 - Atualizar o bootstrap (ou esperar a próxima versão)
