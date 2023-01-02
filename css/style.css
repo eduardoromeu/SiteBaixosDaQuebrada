@@ -72,6 +72,10 @@
     max-width: 256px;
 }
 
+.inverted-svg {
+    filter: invert(1);
+}
+
 /* Social */
 
 .social-buttons {
@@ -98,6 +102,7 @@
 
 .discord-btn {
     padding: 9px;
+    background-color: #5865F2 !important;
 }
 
 .social-buttons .btn:hover .discord-img {

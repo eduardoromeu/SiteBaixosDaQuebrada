@@ -5,4 +5,4 @@
 - Fazer os ícones de redes sociais pararem antes do footer [(ref)](https://css-tricks.com/styling-based-on-scroll-position/)
 - Trocar CSS customizado por imagens
 - Vetorizar Imagem do instagram
-- Atualizar o bootstrap (ou esperar a próxima versão)
+- Corrigir ícone preto
